@@ -1,0 +1,23 @@
+{
+    "students": [
+      {
+        "name": "Ana Clarice",
+        "username": "@ana_lispector",
+        "audioUrl": "https://www.example.com/audio1.mp3",
+        "duration": "29:31"
+      },
+      {
+        "name": "Henrique",
+        "username": "@hen1_dev",
+        "audioUrl": "https://www.example.com/audio2.mp3",
+        "duration": "20:07"
+      },
+      {
+        "name": "Marcos",
+        "username": "@ciência_todo_dia",
+        "audioUrl": "https://www.example.com/audio3.mp3",
+        "duration": "25:32"
+      }
+    ]
+  }
+  

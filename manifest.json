@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Estude Comigo",
+    "description": "Uma extensão que permite que alunos gravem e compartilhem leituras de conteúdo acadêmico.",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs",
+      "identity"
+    ],
+    "icons": {
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "host_permissions": [
+      "*://*.iesb.grupoa.education/*",
+      "https://www.youtube.com/*"
+    ]
+  }
+  
