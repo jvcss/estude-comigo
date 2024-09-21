@@ -26,8 +26,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: center;
-  margin-bottom: 20px;
+  align-items: stretch;
+  margin-bottom: 10px;
 }
 
 .record-button {
@@ -45,11 +45,9 @@ body {
   border-radius: 50%;
 }
 
-.audio-wave img {
-  width: 260px;
-  height: 30px;
-  border-radius: 4px;
-  background-color: #ddd;
+#audio-player {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .student-list {
@@ -75,12 +73,12 @@ body {
   color: green;
 }
 
-.notifications {
+.likes {
   background-color: rgb(0, 255, 149);
   color: white;
   padding: 5px;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 a {
@@ -88,20 +86,8 @@ a {
   text-decoration: underline;
 }
 
-.container {
-  width: 300px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 h1 {
   font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-.audio-player {
   margin-bottom: 20px;
 }
 
